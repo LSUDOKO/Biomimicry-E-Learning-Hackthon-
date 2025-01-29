@@ -1,54 +1,39 @@
-<<<<<<< HEAD
-# Biomimicry-E-Learning-Hackthon-
-=======
-# React + TypeScript + Vite
+# Biomimicry - E-Learning Website
+## 🌿 Overview
+Biomimicry is an innovative e-learning platform designed to explore and teach the principles of biomimicry—learning from nature to solve human challenges. The platform offers interactive courses, case studies, and resources to inspire sustainability through nature-inspired design.
+## 🚀 Features
+🌱 Interactive Courses - Engaging lessons on biomimicry principles.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔍 Case Studies - Real-world applications of nature-inspired solutions.
 
-Currently, two official plugins are available:
+🎥 Multimedia Content - Videos, quizzes, and interactive exercises.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📚 Resource Library - Access to articles, research papers, and e-books.
 
-## Expanding the ESLint configuration
+🏆 Certification - Earn badges and certificates upon completion.
+## 🛠 Tech Stack
+Frontend: HTML, CSS, JavaScript (React.js)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Backend: Node.js, Express.js
 
-- Configure the top-level `parserOptions` property like this:
+Database: MongoDB
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Authentication: Firebase/Auth0
+
+Hosting: Vercel/Netlify (Frontend), Heroku (Backend)
+##  Installation & Setup
+Install dependencies
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+npm install
 ```
->>>>>>> 9307e58 (complete)
+Start the development server:
+```
+npm run dev
+```
+## 🤝 Contribution
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+## 📜 License
+
+This project is licensed under the MIT License.
+## 📞 Contact
+For any queries or feedback, reach out to adoranto737@gmail.com
