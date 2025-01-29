@@ -21,6 +21,9 @@ Database: MongoDB
 Authentication: Firebase/Auth0
 
 Hosting: Vercel/Netlify (Frontend), Heroku (Backend)
+## Product Vedio
+https://youtu.be/4RPwDeMwuos
+
 ##  Installation & Setup
 Install dependencies
 ```
