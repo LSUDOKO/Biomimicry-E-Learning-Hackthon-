@@ -22,8 +22,8 @@ Authentication: Firebase/Auth0
 
 Hosting: Vercel/Netlify (Frontend), Heroku (Backend)
 ## Product Vedio
-https://youtu.be/4RPwDeMwuos
 
+https://github.com/user-attachments/assets/69343316-b8b9-4cda-a59f-f7cd981a4b0d
 ##  Installation & Setup
 Install dependencies
 ```
